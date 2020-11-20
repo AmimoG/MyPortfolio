@@ -11,6 +11,22 @@ Variables
 ===============
 */
 
+/* * {
+  box-sizing: border-box;
+} */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+
+.services{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
 :root {
   /* dark shades of primary color*/
   --clr-primary-1: hsl(43, 86%, 17%);
