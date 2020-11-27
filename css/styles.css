@@ -198,6 +198,10 @@ p {
 .bg-grey {
   background: var(--clr-grey-10);
 }
+
+.back{
+  background-image: url(../images/landing.jpeg);
+}
 /*
 =============== 
 Navbar
